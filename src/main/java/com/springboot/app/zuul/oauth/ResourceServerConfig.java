@@ -25,7 +25,7 @@ import java.util.Arrays;
 @EnableResourceServer
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
-    @Value("${config.security.auth.jwt.key}")
+    @Value("${config.security.oauth.jwt.key}")
     private String jwtKey;
 
     @Override
